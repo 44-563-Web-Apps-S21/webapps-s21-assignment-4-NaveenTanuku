@@ -21,7 +21,8 @@
 }
 .name:hover{
     text-shadow: 0 0 3px red, 0 0 5px yellow;
-}
+    border-style: solid;
+    }
 .COUNTESS{
     color: blue;
 }
@@ -44,3 +45,24 @@ table, th, td {
   tr:nth-child(even){
       background-color:  lightgrey;
   }
+  ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  }
+  .navbar-horizontal li {
+    float: left;
+    background-color: coral;
+  }
+  .navbar-horizontal a{
+      padding: 10px;
+      color: darkslategray;
+      background-color: lightgrey;
+  }
+  .navbar-horizontal a:hover{
+      display: block;
+      background-color: darkred;
+      color: deepskyblue;
+  }
+
+
